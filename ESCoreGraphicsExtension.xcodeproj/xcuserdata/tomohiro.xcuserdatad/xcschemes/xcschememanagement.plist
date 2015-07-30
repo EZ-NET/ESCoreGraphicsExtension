@@ -4,15 +4,74 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ESCoreGraphicsExtension.xcscheme</key>
+		<key>ESCoreGraphicsExtension_OSX.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>ESCoreGraphicsExtension_OSXTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ESCoreGraphicsExtension_iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ESCoreGraphicsExtension_iOSTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B1FA2F651B68E3BD0074F0E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1FA2F751B68E3D10074F0E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1FA2F811B68E3EF0074F0E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1FA2F911B68E4050074F0E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1FA2F9A1B68E4050074F0E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1FA2FAD1B68E48B0074F0E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1FA2FB61B68E48B0074F0E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1FA2FC91B68E4C00074F0E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1FA2FD21B68E4C00074F0E0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

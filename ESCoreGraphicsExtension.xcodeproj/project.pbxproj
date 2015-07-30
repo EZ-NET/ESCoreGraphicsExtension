@@ -7,38 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1FA2F6A1B68E3BD0074F0E0 /* ESCoreGraphicsExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FA2F691B68E3BD0074F0E0 /* ESCoreGraphicsExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		980093DADD65163FFEAA353B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE83472E4C81902270BDF356 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B18500D91B692035002DEB81 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18500D81B692035002DEB81 /* Operators.swift */; };
+		B18500DA1B692035002DEB81 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18500D81B692035002DEB81 /* Operators.swift */; };
+		B192256E1B6AC5270025E5EF /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192256D1B6AC5270025E5EF /* CGSize.swift */; };
+		B192256F1B6AC5270025E5EF /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192256D1B6AC5270025E5EF /* CGSize.swift */; };
+		B19225711B6AC6190025E5EF /* CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19225701B6AC6190025E5EF /* CGImage.swift */; };
+		B19225721B6AC6190025E5EF /* CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19225701B6AC6190025E5EF /* CGImage.swift */; };
+		B1FA2F851B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2F841B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests.swift */; };
+		B1FA2F871B68E3EF0074F0E0 /* ESCoreGraphicsExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FA2F761B68E3D10074F0E0 /* ESCoreGraphicsExtension.framework */; };
+		B1FA2FCD1B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FA2FCC1B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1FA2FD41B68E4C00074F0E0 /* ESCoreGraphicsExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FA2FCA1B68E4C00074F0E0 /* ESCoreGraphicsExtension.framework */; };
+		B1FA2FD91B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FD81B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOSTests.swift */; };
+		B1FA2FE31B68EB400074F0E0 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FE21B68EB400074F0E0 /* CGFloat.swift */; };
+		B1FA2FE41B68EB430074F0E0 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FE21B68EB400074F0E0 /* CGFloat.swift */; };
+		B1FA2FE61B68EBBD0074F0E0 /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FE51B68EBBD0074F0E0 /* Flip.swift */; };
+		B1FA2FE71B68EBBD0074F0E0 /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FE51B68EBBD0074F0E0 /* Flip.swift */; };
+		B1FA2FE91B68ED1A0074F0E0 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FE81B68ED1A0074F0E0 /* CGRect.swift */; };
+		B1FA2FEA1B68ED1A0074F0E0 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FE81B68ED1A0074F0E0 /* CGRect.swift */; };
+		B1FA2FEC1B68ED810074F0E0 /* ReplaceValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FEB1B68ED810074F0E0 /* ReplaceValues.swift */; };
+		B1FA2FED1B68ED810074F0E0 /* ReplaceValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FEB1B68ED810074F0E0 /* ReplaceValues.swift */; };
+		B1FA2FEF1B68EDAF0074F0E0 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FEE1B68EDAF0074F0E0 /* CGPoint.swift */; };
+		B1FA2FF01B68EDAF0074F0E0 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FEE1B68EDAF0074F0E0 /* CGPoint.swift */; };
+		B1FA2FF21B68EDE00074F0E0 /* IntegerSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FF11B68EDE00074F0E0 /* IntegerSupport.swift */; };
+		B1FA2FF31B68EDE00074F0E0 /* IntegerSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FF11B68EDE00074F0E0 /* IntegerSupport.swift */; };
+		B1FA2FF51B68EE7E0074F0E0 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FF41B68EE7E0074F0E0 /* Scale.swift */; };
+		B1FA2FF61B68EE7E0074F0E0 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2FF41B68EE7E0074F0E0 /* Scale.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B1FA2F881B68E3EF0074F0E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1FA2F5D1B68E3BD0074F0E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1FA2F751B68E3D10074F0E0;
+			remoteInfo = ESCoreGraphicsExtension_OSX;
+		};
+		B1FA2FD51B68E4C00074F0E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1FA2F5D1B68E3BD0074F0E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1FA2FC91B68E4C00074F0E0;
+			remoteInfo = ESCoreGraphicsExtension_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		B1FA2F661B68E3BD0074F0E0 /* ESCoreGraphicsExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESCoreGraphicsExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1FA2F691B68E3BD0074F0E0 /* ESCoreGraphicsExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCoreGraphicsExtension.h; sourceTree = "<group>"; };
-		B1FA2F6B1B68E3BD0074F0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4953852A2A54BBE97FE720E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B18500D81B692035002DEB81 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		B192256D1B6AC5270025E5EF /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		B19225701B6AC6190025E5EF /* CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImage.swift; sourceTree = "<group>"; };
+		B1FA2F761B68E3D10074F0E0 /* ESCoreGraphicsExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESCoreGraphicsExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FA2F781B68E3D10074F0E0 /* ESCoreGraphicsExtension_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCoreGraphicsExtension_OSX.h; sourceTree = "<group>"; };
+		B1FA2F7A1B68E3D10074F0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FA2F821B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESCoreGraphicsExtension_OSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FA2F841B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCoreGraphicsExtension_OSXTests.swift; sourceTree = "<group>"; };
+		B1FA2F861B68E3EF0074F0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FA2FCA1B68E4C00074F0E0 /* ESCoreGraphicsExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESCoreGraphicsExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FA2FCC1B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCoreGraphicsExtension_iOS.h; sourceTree = "<group>"; };
+		B1FA2FCE1B68E4C00074F0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FA2FD31B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESCoreGraphicsExtension_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FA2FD81B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCoreGraphicsExtension_iOSTests.swift; sourceTree = "<group>"; };
+		B1FA2FDA1B68E4C00074F0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FA2FE11B68E5120074F0E0 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1FA2FE21B68EB400074F0E0 /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		B1FA2FE51B68EBBD0074F0E0 /* Flip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flip.swift; sourceTree = "<group>"; };
+		B1FA2FE81B68ED1A0074F0E0 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		B1FA2FEB1B68ED810074F0E0 /* ReplaceValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceValues.swift; sourceTree = "<group>"; };
+		B1FA2FEE1B68EDAF0074F0E0 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		B1FA2FF11B68EDE00074F0E0 /* IntegerSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerSupport.swift; sourceTree = "<group>"; };
+		B1FA2FF41B68EE7E0074F0E0 /* Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
+		CE83472E4C81902270BDF356 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC2DAC7DD211D887503D36F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B1FA2F621B68E3BD0074F0E0 /* Frameworks */ = {
+		B1FA2F721B68E3D10074F0E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980093DADD65163FFEAA353B /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FA2F7F1B68E3EF0074F0E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FA2F871B68E3EF0074F0E0 /* ESCoreGraphicsExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FA2FC61B68E4C00074F0E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1FA2FD01B68E4C00074F0E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FA2FD41B68E4C00074F0E0 /* ESCoreGraphicsExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1930DE98720C1EC022023AA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4953852A2A54BBE97FE720E7 /* Pods.debug.xcconfig */,
+				DFC2DAC7DD211D887503D36F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B19225731B6AC78C0025E5EF /* ESCoreGraphicsExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ESCoreGraphicsExtensionTests;
+			sourceTree = "<group>";
+		};
 		B1FA2F5C1B68E3BD0074F0E0 = {
 			isa = PBXGroup;
 			children = (
+				B1FA2FE11B68E5120074F0E0 /* Podfile */,
 				B1FA2F681B68E3BD0074F0E0 /* ESCoreGraphicsExtension */,
+				B1FA2F771B68E3D10074F0E0 /* ESCoreGraphicsExtension_OSX */,
+				B1FA2FCB1B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS */,
+				B19225731B6AC78C0025E5EF /* ESCoreGraphicsExtensionTests */,
+				B1FA2F831B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests */,
+				B1FA2FD71B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOSTests */,
 				B1FA2F671B68E3BD0074F0E0 /* Products */,
+				1930DE98720C1EC022023AA9 /* Pods */,
+				BB78143B8D9B543797238E5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B1FA2F671B68E3BD0074F0E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1FA2F661B68E3BD0074F0E0 /* ESCoreGraphicsExtension.framework */,
+				B1FA2F761B68E3D10074F0E0 /* ESCoreGraphicsExtension.framework */,
+				B1FA2F821B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests.xctest */,
+				B1FA2FCA1B68E4C00074F0E0 /* ESCoreGraphicsExtension.framework */,
+				B1FA2FD31B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,43 +162,158 @@
 		B1FA2F681B68E3BD0074F0E0 /* ESCoreGraphicsExtension */ = {
 			isa = PBXGroup;
 			children = (
-				B1FA2F691B68E3BD0074F0E0 /* ESCoreGraphicsExtension.h */,
-				B1FA2F6B1B68E3BD0074F0E0 /* Info.plist */,
+				B1FA2FF11B68EDE00074F0E0 /* IntegerSupport.swift */,
+				B1FA2FE21B68EB400074F0E0 /* CGFloat.swift */,
+				B1FA2FEE1B68EDAF0074F0E0 /* CGPoint.swift */,
+				B192256D1B6AC5270025E5EF /* CGSize.swift */,
+				B1FA2FE81B68ED1A0074F0E0 /* CGRect.swift */,
+				B19225701B6AC6190025E5EF /* CGImage.swift */,
+				B1FA2FE51B68EBBD0074F0E0 /* Flip.swift */,
+				B1FA2FEB1B68ED810074F0E0 /* ReplaceValues.swift */,
+				B1FA2FF41B68EE7E0074F0E0 /* Scale.swift */,
+				B18500D81B692035002DEB81 /* Operators.swift */,
 			);
 			path = ESCoreGraphicsExtension;
+			sourceTree = "<group>";
+		};
+		B1FA2F771B68E3D10074F0E0 /* ESCoreGraphicsExtension_OSX */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA2F781B68E3D10074F0E0 /* ESCoreGraphicsExtension_OSX.h */,
+				B1FA2F7A1B68E3D10074F0E0 /* Info.plist */,
+			);
+			path = ESCoreGraphicsExtension_OSX;
+			sourceTree = "<group>";
+		};
+		B1FA2F831B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA2F841B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests.swift */,
+				B1FA2F861B68E3EF0074F0E0 /* Info.plist */,
+			);
+			path = ESCoreGraphicsExtension_OSXTests;
+			sourceTree = "<group>";
+		};
+		B1FA2FCB1B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA2FCC1B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS.h */,
+				B1FA2FCE1B68E4C00074F0E0 /* Info.plist */,
+			);
+			path = ESCoreGraphicsExtension_iOS;
+			sourceTree = "<group>";
+		};
+		B1FA2FD71B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA2FD81B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOSTests.swift */,
+				B1FA2FDA1B68E4C00074F0E0 /* Info.plist */,
+			);
+			path = ESCoreGraphicsExtension_iOSTests;
+			sourceTree = "<group>";
+		};
+		BB78143B8D9B543797238E5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE83472E4C81902270BDF356 /* Pods.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B1FA2F631B68E3BD0074F0E0 /* Headers */ = {
+		B1FA2F731B68E3D10074F0E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1FA2F6A1B68E3BD0074F0E0 /* ESCoreGraphicsExtension.h in Headers */,
+				B1FA2FCD1B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FA2FC71B68E4C00074F0E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B1FA2F651B68E3BD0074F0E0 /* ESCoreGraphicsExtension */ = {
+		B1FA2F751B68E3D10074F0E0 /* ESCoreGraphicsExtension_OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1FA2F6E1B68E3BD0074F0E0 /* Build configuration list for PBXNativeTarget "ESCoreGraphicsExtension" */;
+			buildConfigurationList = B1FA2F7B1B68E3D10074F0E0 /* Build configuration list for PBXNativeTarget "ESCoreGraphicsExtension_OSX" */;
 			buildPhases = (
-				B1FA2F611B68E3BD0074F0E0 /* Sources */,
-				B1FA2F621B68E3BD0074F0E0 /* Frameworks */,
-				B1FA2F631B68E3BD0074F0E0 /* Headers */,
-				B1FA2F641B68E3BD0074F0E0 /* Resources */,
+				EAB9239F5BF6234F668E224E /* Check Pods Manifest.lock */,
+				B1FA2F711B68E3D10074F0E0 /* Sources */,
+				B1FA2F721B68E3D10074F0E0 /* Frameworks */,
+				B1FA2F731B68E3D10074F0E0 /* Headers */,
+				B1FA2F741B68E3D10074F0E0 /* Resources */,
+				94F921B03AF4D98A345D0CD8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ESCoreGraphicsExtension;
-			productName = ESCoreGraphicsExtension;
-			productReference = B1FA2F661B68E3BD0074F0E0 /* ESCoreGraphicsExtension.framework */;
+			name = ESCoreGraphicsExtension_OSX;
+			productName = ESCoreGraphicsExtension_OSX;
+			productReference = B1FA2F761B68E3D10074F0E0 /* ESCoreGraphicsExtension.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		B1FA2F811B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FA2F8A1B68E3EF0074F0E0 /* Build configuration list for PBXNativeTarget "ESCoreGraphicsExtension_OSXTests" */;
+			buildPhases = (
+				B1FA2F7E1B68E3EF0074F0E0 /* Sources */,
+				B1FA2F7F1B68E3EF0074F0E0 /* Frameworks */,
+				B1FA2F801B68E3EF0074F0E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1FA2F891B68E3EF0074F0E0 /* PBXTargetDependency */,
+			);
+			name = ESCoreGraphicsExtension_OSXTests;
+			productName = ESCoreGraphicsExtension_OSXTests;
+			productReference = B1FA2F821B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1FA2FC91B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FA2FDB1B68E4C00074F0E0 /* Build configuration list for PBXNativeTarget "ESCoreGraphicsExtension_iOS" */;
+			buildPhases = (
+				B1FA2FC51B68E4C00074F0E0 /* Sources */,
+				B1FA2FC61B68E4C00074F0E0 /* Frameworks */,
+				B1FA2FC71B68E4C00074F0E0 /* Headers */,
+				B1FA2FC81B68E4C00074F0E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESCoreGraphicsExtension_iOS;
+			productName = ESCoreGraphicsExtension_iOS;
+			productReference = B1FA2FCA1B68E4C00074F0E0 /* ESCoreGraphicsExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1FA2FD21B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FA2FDE1B68E4C00074F0E0 /* Build configuration list for PBXNativeTarget "ESCoreGraphicsExtension_iOSTests" */;
+			buildPhases = (
+				B1FA2FCF1B68E4C00074F0E0 /* Sources */,
+				B1FA2FD01B68E4C00074F0E0 /* Frameworks */,
+				B1FA2FD11B68E4C00074F0E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1FA2FD61B68E4C00074F0E0 /* PBXTargetDependency */,
+			);
+			name = ESCoreGraphicsExtension_iOSTests;
+			productName = ESCoreGraphicsExtension_iOSTests;
+			productReference = B1FA2FD31B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -90,10 +321,20 @@
 		B1FA2F5D1B68E3BD0074F0E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "EasyStyle G.K.";
 				TargetAttributes = {
-					B1FA2F651B68E3BD0074F0E0 = {
+					B1FA2F751B68E3D10074F0E0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B1FA2F811B68E3EF0074F0E0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B1FA2FC91B68E4C00074F0E0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B1FA2FD21B68E4C00074F0E0 = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -110,13 +351,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1FA2F651B68E3BD0074F0E0 /* ESCoreGraphicsExtension */,
+				B1FA2F751B68E3D10074F0E0 /* ESCoreGraphicsExtension_OSX */,
+				B1FA2FC91B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS */,
+				B1FA2F811B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests */,
+				B1FA2FD21B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B1FA2F641B68E3BD0074F0E0 /* Resources */ = {
+		B1FA2F741B68E3D10074F0E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FA2F801B68E3EF0074F0E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FA2FC81B68E4C00074F0E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FA2FD11B68E4C00074F0E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,15 +390,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		94F921B03AF4D98A345D0CD8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAB9239F5BF6234F668E224E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		B1FA2F611B68E3BD0074F0E0 /* Sources */ = {
+		B1FA2F711B68E3D10074F0E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1FA2FE31B68EB400074F0E0 /* CGFloat.swift in Sources */,
+				B18500D91B692035002DEB81 /* Operators.swift in Sources */,
+				B1FA2FE91B68ED1A0074F0E0 /* CGRect.swift in Sources */,
+				B1FA2FEC1B68ED810074F0E0 /* ReplaceValues.swift in Sources */,
+				B1FA2FEF1B68EDAF0074F0E0 /* CGPoint.swift in Sources */,
+				B19225711B6AC6190025E5EF /* CGImage.swift in Sources */,
+				B1FA2FF51B68EE7E0074F0E0 /* Scale.swift in Sources */,
+				B1FA2FF21B68EDE00074F0E0 /* IntegerSupport.swift in Sources */,
+				B192256E1B6AC5270025E5EF /* CGSize.swift in Sources */,
+				B1FA2FE61B68EBBD0074F0E0 /* Flip.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FA2F7E1B68E3EF0074F0E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FA2F851B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FA2FC51B68E4C00074F0E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FA2FE41B68EB430074F0E0 /* CGFloat.swift in Sources */,
+				B18500DA1B692035002DEB81 /* Operators.swift in Sources */,
+				B1FA2FEA1B68ED1A0074F0E0 /* CGRect.swift in Sources */,
+				B1FA2FED1B68ED810074F0E0 /* ReplaceValues.swift in Sources */,
+				B1FA2FF01B68EDAF0074F0E0 /* CGPoint.swift in Sources */,
+				B19225721B6AC6190025E5EF /* CGImage.swift in Sources */,
+				B1FA2FF61B68EE7E0074F0E0 /* Scale.swift in Sources */,
+				B1FA2FF31B68EDE00074F0E0 /* IntegerSupport.swift in Sources */,
+				B192256F1B6AC5270025E5EF /* CGSize.swift in Sources */,
+				B1FA2FE71B68EBBD0074F0E0 /* Flip.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FA2FCF1B68E4C00074F0E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FA2FD91B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1FA2F891B68E3EF0074F0E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1FA2F751B68E3D10074F0E0 /* ESCoreGraphicsExtension_OSX */;
+			targetProxy = B1FA2F881B68E3EF0074F0E0 /* PBXContainerItemProxy */;
+		};
+		B1FA2FD61B68E4C00074F0E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1FA2FC91B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS */;
+			targetProxy = B1FA2FD51B68E4C00074F0E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B1FA2F6C1B68E3BD0074F0E0 /* Debug */ = {
@@ -172,7 +526,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -212,7 +567,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -220,7 +576,70 @@
 			};
 			name = Release;
 		};
-		B1FA2F6F1B68E3BD0074F0E0 /* Debug */ = {
+		B1FA2F7C1B68E3D10074F0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4953852A2A54BBE97FE720E7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ESCoreGraphicsExtension_OSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ESCoreGraphicsExtension-OSX";
+				PRODUCT_NAME = ESCoreGraphicsExtension;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1FA2F7D1B68E3D10074F0E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC2DAC7DD211D887503D36F /* Pods.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ESCoreGraphicsExtension_OSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ESCoreGraphicsExtension-OSX";
+				PRODUCT_NAME = ESCoreGraphicsExtension;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B1FA2F8B1B68E3EF0074F0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ESCoreGraphicsExtension_OSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ESCoreGraphicsExtension-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1FA2F8C1B68E3EF0074F0E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ESCoreGraphicsExtension_OSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ESCoreGraphicsExtension-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B1FA2FDC1B68E4C00074F0E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -229,16 +648,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = ESCoreGraphicsExtension/Info.plist;
+				INFOPLIST_FILE = ESCoreGraphicsExtension_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ESCoreGraphicsExtension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ESCoreGraphicsExtension-iOS";
+				PRODUCT_NAME = ESCoreGraphicsExtension;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		B1FA2F701B68E3BD0074F0E0 /* Release */ = {
+		B1FA2FDD1B68E4C00074F0E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -247,12 +666,36 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = ESCoreGraphicsExtension/Info.plist;
+				INFOPLIST_FILE = ESCoreGraphicsExtension_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ESCoreGraphicsExtension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ESCoreGraphicsExtension-iOS";
+				PRODUCT_NAME = ESCoreGraphicsExtension;
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B1FA2FDF1B68E4C00074F0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ESCoreGraphicsExtension_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ESCoreGraphicsExtension-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1FA2FE01B68E4C00074F0E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ESCoreGraphicsExtension_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ESCoreGraphicsExtension-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -268,13 +711,41 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1FA2F6E1B68E3BD0074F0E0 /* Build configuration list for PBXNativeTarget "ESCoreGraphicsExtension" */ = {
+		B1FA2F7B1B68E3D10074F0E0 /* Build configuration list for PBXNativeTarget "ESCoreGraphicsExtension_OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1FA2F6F1B68E3BD0074F0E0 /* Debug */,
-				B1FA2F701B68E3BD0074F0E0 /* Release */,
+				B1FA2F7C1B68E3D10074F0E0 /* Debug */,
+				B1FA2F7D1B68E3D10074F0E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FA2F8A1B68E3EF0074F0E0 /* Build configuration list for PBXNativeTarget "ESCoreGraphicsExtension_OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FA2F8B1B68E3EF0074F0E0 /* Debug */,
+				B1FA2F8C1B68E3EF0074F0E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FA2FDB1B68E4C00074F0E0 /* Build configuration list for PBXNativeTarget "ESCoreGraphicsExtension_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FA2FDC1B68E4C00074F0E0 /* Debug */,
+				B1FA2FDD1B68E4C00074F0E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FA2FDE1B68E4C00074F0E0 /* Build configuration list for PBXNativeTarget "ESCoreGraphicsExtension_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FA2FDF1B68E4C00074F0E0 /* Debug */,
+				B1FA2FE01B68E4C00074F0E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
