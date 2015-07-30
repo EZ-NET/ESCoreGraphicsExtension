@@ -14,6 +14,8 @@
 		B192256F1B6AC5270025E5EF /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192256D1B6AC5270025E5EF /* CGSize.swift */; };
 		B19225711B6AC6190025E5EF /* CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19225701B6AC6190025E5EF /* CGImage.swift */; };
 		B19225721B6AC6190025E5EF /* CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19225701B6AC6190025E5EF /* CGImage.swift */; };
+		B19225771B6AD1490025E5EF /* Margin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19225761B6AD1490025E5EF /* Margin.swift */; };
+		B19225781B6AD1490025E5EF /* Margin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19225761B6AD1490025E5EF /* Margin.swift */; };
 		B1FA2F851B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA2F841B68E3EF0074F0E0 /* ESCoreGraphicsExtension_OSXTests.swift */; };
 		B1FA2F871B68E3EF0074F0E0 /* ESCoreGraphicsExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FA2F761B68E3D10074F0E0 /* ESCoreGraphicsExtension.framework */; };
 		B1FA2FCD1B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FA2FCC1B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,6 +59,7 @@
 		B18500D81B692035002DEB81 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		B192256D1B6AC5270025E5EF /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
 		B19225701B6AC6190025E5EF /* CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImage.swift; sourceTree = "<group>"; };
+		B19225761B6AD1490025E5EF /* Margin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Margin.swift; sourceTree = "<group>"; };
 		B1FA2F761B68E3D10074F0E0 /* ESCoreGraphicsExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESCoreGraphicsExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1FA2F781B68E3D10074F0E0 /* ESCoreGraphicsExtension_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCoreGraphicsExtension_OSX.h; sourceTree = "<group>"; };
 		B1FA2F7A1B68E3D10074F0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -171,6 +174,7 @@
 				B1FA2FE51B68EBBD0074F0E0 /* Flip.swift */,
 				B1FA2FEB1B68ED810074F0E0 /* ReplaceValues.swift */,
 				B1FA2FF41B68EE7E0074F0E0 /* Scale.swift */,
+				B19225761B6AD1490025E5EF /* Margin.swift */,
 				B18500D81B692035002DEB81 /* Operators.swift */,
 			);
 			path = ESCoreGraphicsExtension;
@@ -438,6 +442,7 @@
 				B1FA2FF21B68EDE00074F0E0 /* IntegerSupport.swift in Sources */,
 				B192256E1B6AC5270025E5EF /* CGSize.swift in Sources */,
 				B1FA2FE61B68EBBD0074F0E0 /* Flip.swift in Sources */,
+				B19225771B6AD1490025E5EF /* Margin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +468,7 @@
 				B1FA2FF31B68EDE00074F0E0 /* IntegerSupport.swift in Sources */,
 				B192256F1B6AC5270025E5EF /* CGSize.swift in Sources */,
 				B1FA2FE71B68EBBD0074F0E0 /* Flip.swift in Sources */,
+				B19225781B6AD1490025E5EF /* Margin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
