@@ -13,7 +13,7 @@ import Swim
 
 extension CGRect {
 	
-	func applyMargin(margin:Margin<CGFloat>) -> CGRect {
+	public func applyMargin(margin:Margin<CGFloat>) -> CGRect {
 		
 		let origin = self.origin - CGPoint(x: margin.left, y: margin.top)
 		let size = self.size + CGSize(width: margin.horizontalTotal, height: margin.verticalTotal)
@@ -21,7 +21,7 @@ extension CGRect {
 		return CGRect(origin: origin, size: size)
 	}
 	
-	func applyPadding(padding:Margin<CGFloat>) -> CGRect {
+	public func applyPadding(padding:Margin<CGFloat>) -> CGRect {
 		
 		let origin = self.origin + CGPoint(x: padding.left, y: padding.top)
 		let size = self.size - CGSize(width: padding.horizontalTotal, height: padding.verticalTotal)
