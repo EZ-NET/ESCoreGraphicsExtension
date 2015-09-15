@@ -56,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		4953852A2A54BBE97FE720E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B12603AC1BA815A4002F5E4D /* ESCoreGraphicsExtension.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ESCoreGraphicsExtension.podspec; sourceTree = "<group>"; };
 		B18500D81B692035002DEB81 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		B192256D1B6AC5270025E5EF /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
 		B19225701B6AC6190025E5EF /* CGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImage.swift; sourceTree = "<group>"; };
@@ -139,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				B1FA2FE11B68E5120074F0E0 /* Podfile */,
+				B12603AC1BA815A4002F5E4D /* ESCoreGraphicsExtension.podspec */,
 				B1FA2F681B68E3BD0074F0E0 /* ESCoreGraphicsExtension */,
 				B1FA2F771B68E3D10074F0E0 /* ESCoreGraphicsExtension_OSX */,
 				B1FA2FCB1B68E4C00074F0E0 /* ESCoreGraphicsExtension_iOS */,

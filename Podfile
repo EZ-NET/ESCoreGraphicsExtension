@@ -6,7 +6,7 @@ platform :osx, '10.9'
 
 use_frameworks!
 
-pod 'Swim', '~> 1.3.11'
+pod 'Swim', '~> 1.4.0'
 
 #target [:ESCoreGraphicsExtension_OSXTests, :ESCoreGraphicsExtension_iOSTests do
 

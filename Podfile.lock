@@ -1,10 +1,10 @@
 PODS:
-  - Swim (1.3.14)
+  - Swim (1.4.0)
 
 DEPENDENCIES:
-  - Swim (~> 1.3.11)
+  - Swim (~> 1.4.0)
 
 SPEC CHECKSUMS:
-  Swim: 9b5184815b6c50971ef0378156225c90fc8e50b5
+  Swim: f2ddcf18008ea2b9dd6a2b046bec811a706b7f9b
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0.beta.4
